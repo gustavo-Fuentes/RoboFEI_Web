@@ -1,0 +1,27 @@
+li.nav-item a.nav-link{
+    color: #ffffff;
+    margin: 5px;
+    border-radius: 25px;
+}
+
+li.nav-item:hover a.nav-link{ 
+    background-color: #cecece;
+    border-radius: 25px;
+}
+
+li.nav-item a.nav-link:hover{
+    color: #000000; 
+}
+
+li.nav-item:active a.nav-link{ 
+    background-color: #b3b3b3;
+    border-radius: 25px;
+}
+
+li.nav-item a.nav-link:active{
+    color: rgba(4, 22, 77, 0.808); 
+}
+
+p, h2{
+    padding: 10px;
+}

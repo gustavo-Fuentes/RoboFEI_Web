@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <title>Robo FEI Team</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+  <link href="../css/custom-navbar.css" rel="stylesheet">
+  <style rel="stylesheet" type="text/css">
+    div {
+      position: relative;
+    }
+
+    #nav {
+      position: absolute;
+      left: 50%;
+      top: 0;
+      margin-left: -375px;
+      /* negative margin equal to half the width */
+      width: 750px;
+      list-style: none;
+    }
+
+    #nav li {
+      float: left;
+    }
+
+    #nav a {
+      display: block;
+      text-align: center;
+      width: 150px;
+      /* fixed width */
+      text-decoration: none;
+    }
+
+    #nav-item {
+      color: rgb(212, 93, 8);
+    }
+
+    p{
+      padding: 10px;
+    }
+  </style>
+</head>
+
+<body>
+
+
+
+  <nav class="navbar navbar-expand-md navbar-light" style="background-color: rgba(4, 22, 77, 0.808);">
+
+    <a class="navbar-brand" href="../index.html"> <img src="../images/logo.png" style="margin-left: 10px;" height="75" width="80"> </a>
+
+    <div class=" collapse navbar-collapse" id="navbarNav">
+      <ul class="nav" style="width: auto; margin: auto; ">
+
+        <li class="nav-item">
+          <a class="nav-link" href="../index.html">Home</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="../Html/projects.html">Projects</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="../Html/team_members.html">Team Members</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link " href="../Html/robots.html">Robots</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link " href="../Html/demonstrations.html">Videos</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link " href="../Html/downloads.html">Downloads</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link " href="../Html/publications.html">Publications</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link " href="../Html/awards.html">Awards</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="../Html/contact.html">Contact</a>
+        </li>
+
+      </ul>
+    </div>
+    <a class="navbar-brand" href="../index.html"> <img src="../images/RoboFEI_Logo.png" height="75" width="200"> </a>
+  </nav>
+
+  <div style="margin:auto 270px auto 270px; border: 1px solid  rgb(4, 22, 77)">
+    <div>
+      <h1 style="text-align: center;">
+        Projects
+      </h1>
+    </div>
+    <div class="card ">
+      <div class="card-header text-center">
+        Small Size
+      </div>
+      <div class="card-body">
+
+        <ul>
+          <li>Improve the game playing: how can we make the robots to play well together ? They need to perfom passes, drible and a collaborative and perfect attack and defense systems.</li>
+          <li>Learning and Planning: how can we develop a system to learn the playing system of the opponent ? How to adapt our game to beat any other team automatically ?</li>
+          <li>How to create a perfect balance between robot control and velocity ? We need a robot with carefull control in order to perform complex tasks in the game field.</li>
+          <li>The entire robot must be constantly evaluate. Mechanical parts must be adjusted based on opponent robota and the field. Eletronic project must garantee a good and fast respondes to the comands and robot control.</li>
+          <li>Robot Localization: can a qualitative-probabilistic approach be used to address the problem of mobile robot localization? We are investigating the combination of Qualitative Reasoning with a Bayesian filter to localize the robots.</li>
+        </ul>
+
+
+      </div>
+    </div>
+
+    <div class="card ">
+      <div class="card-header text-center">
+        Humanoid
+      </div>
+      <div class="card-body">
+
+        <ul>
+          <li>Mechanical design of humanoid robots: how can a robot be build, using lighter parts and new kinematic configurations? In particular, we are studying Topology Optimization as a way to built stronger and lighter parts for the robots.</li>
+          <li>Gait generation and optimization: how to automatically generate gaits and optimize them? We are using Reinforcement Learning, Particle Swarm Optimization and Simulated Annealing.</li>
+          <li>Stabilization Methods: most researchers use Center of Gravity or Zero Moment Point methods to stabilize the robot. Can Reinforcement Learning be used to prevent the robot from falling down, dynamically?</li>
+          <li>Vision: can we build a robust method for finding the ball and other robots? We have studied the use of the Hough Transform, Histogram of Oriented Gradients (HOG) and Support Vector Machines to create a robust vision system.</li>
+          <li>Robot Localization: can a qualitative-probabilistic approach be used to address the problem of mobile robot localization? We are investigating the combination of Qualitative Reasoning with a Bayesian filter to localize the robots.</li>
+          <li>Multi-Robot Task Allocation: how can we dynamically change the role of the robots during the game? We aim to adapt a system developed for our a RoboCup Small Size League team, where robots participate of auctions for the available roles, such as attacker or defender, and use Reinforcement Learning to evaluate their aptitude to perform these roles, given the situation of the team, in real-time.</li>
+          <li>Spatial reasoning in multi robot systems: how to enhance the existing spatial reasoning systems towards collaborative systems in which multiple viewpoints of a scene can be interpreted within a single formalism? We are study a new formalism, which we call Collaborative Spatial Reasoning, that can be applied on the scene interpretation from multiple cameras and on the task of scene understanding from the viewpoints of multiple robots.</li>
+          <li>Case Based Reasoning for soccer games: can we use cases, as set-pieces? We have been studying the use of CBR, together with Reinforcement Learning, to have a collection of cases that can work as set-pieces during the game.</li>
+        </ul>
+
+
+      </div>
+    </div>
+
+    <div class="card ">
+      <div class="card-header text-center">
+        @Home
+      </div>
+      <div class="card-body">
+
+        <ul>
+          <li>Mechanical design of service robots: how can a robot be build, using lighter parts and new kinematic configurations?</li>
+          <li>Localization and Navigation: algorithms to optimize localization and navigation of robot on home and office environment.</li>
+          <li>Vision: can we build a robust method for finding the objects and people and other robots? We have studied the use of the Hough Transform, Histogram of Oriented Gradients (HOG) and Support Vector Machines to create a robust vision system.</li>
+          <li>Behavior Analysis and Social Behavior: to identify people social behavior and action in a correct way to people.</li>
+          <li>Speech Recognition: where is the sound? how to identify sounds directions and what people say.</li>
+        </ul>
+
+      </div>
+    </div>
+    <p>As it can be seen, our research interests range from the very bottom level of the robot construction, to the high level intelligent control of the robot behavior.</p>
+  </div>
+  
+  </div>
+</body>
+
+
+
+</html>

@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <title>Robo FEI Team</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+  <link href="../css/custom-navbar.css" rel="stylesheet">
+  <style rel="stylesheet" type="text/css">
+    div {
+      position: relative;
+    }
+
+    #nav {
+      position: absolute;
+      left: 50%;
+      top: 0;
+      margin-left: -375px;
+      /* negative margin equal to half the width */
+      width: 750px;
+      list-style: none;
+    }
+
+    #nav li {
+      float: left;
+    }
+
+    #nav a {
+      display: block;
+      text-align: center;
+      width: 150px;
+      /* fixed width */
+      text-decoration: none;
+    }
+
+    #nav-item {
+      color: rgb(212, 93, 8);
+    }
+  </style>
+</head>
+
+<body>
+
+
+
+  <nav class="navbar navbar-expand-md navbar-light" style="background-color: rgba(4, 22, 77, 0.808);">
+
+    <a class="navbar-brand" href="../index.html"> <img src="../images/logo.png" style="margin-left: 10px;" height="75" width="80"> </a>
+
+    <div class=" collapse navbar-collapse" id="navbarNav">
+      <ul class="nav" style="width: auto; margin: auto; ">
+
+        <li class="nav-item">
+          <a class="nav-link" href="../index.html">Home</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="../Html/projects.html">Projects</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="../Html/team_members.html">Team Members</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link " href="../Html/robots.html">Robots</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link " href="../Html/demonstrations.html">Videos</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link " href="../Html/downloads.html">Downloads</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link " href="../Html/publications.html">Publications</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link " href="../Html/awards.html">Awards</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="../Html/contact.html">Contact</a>
+        </li>
+
+      </ul>
+    </div>
+    <a class="navbar-brand" href="../index.html"> <img src="../images/RoboFEI_Logo.png" height="75" width="200"> </a>
+  </nav>
+
+  <div style="margin:auto 270px auto 270px; border: 1px solid  rgb(4, 22, 77)">
+    <div>
+      <h1 style="text-align: center;">
+        Robots
+      </h1>
+    </div>
+    <div id="demo" class="carousel slide" style="background-color: #4d4d4d; text-align:center;" data-ride="carousel">
+
+      <!-- Indicators -->
+      <ul class="carousel-indicators">
+        <li data-target="#demo" data-slide-to="0" class="active"></li>
+        <li data-target="#demo" data-slide-to="1"></li>
+        <li data-target="#demo" data-slide-to="2"></li>
+        <li data-target="#demo" data-slide-to="3"></li>
+      </ul>
+
+      <!-- The slideshow -->
+
+      <div class="carousel-inner ">
+
+        <div class="carousel-item active">
+          <img src="../images/b-robots.jpg" height="550" width="550">
+          <div class="carousel-caption">
+            <div style=" background-color: rgba(0,0,0,0.5); display: inline-block; padding: 10px" >
+              <h3>Humanoid</h3>
+              <b>
+                <p>B1, B2 and B3 Robots: Robots inspired by DARwIn-OP. </p>
+              </b>
+            </div>
+          </div>
+        </div>
+
+        <div class="carousel-item ">
+          <img src="../images/Newton.png" height="550" width="550">
+          <div class="carousel-caption">
+            <div style=" background-color: rgba(0,0,0,0.5); display: inline-block; padding: 10px" >
+              <h3>Humanoid</h3>
+              <b>
+                <p>Newton</p>
+              </b>
+            </div>
+          </div>
+        </div>
+
+        <div class="carousel-item ">
+          <img src="../images/small_size.jpg" height="550" width="550">
+          <div class="carousel-caption">
+            <div style=" background-color: rgba(0,0,0,0.5); display: inline-block; padding: 10px" >
+              <h3>Small Size</h3>
+              <b>
+                <p></p>
+              </b>
+            </div>  
+          </div>
+        </div>
+
+        <div class="carousel-item ">
+          <img src="../images/judith.jpg" height="550" width="550">
+          <div class="carousel-caption">
+            <div style=" background-color: rgba(0,0,0,0.5); display: inline-block; padding: 10px" >
+              <h3>@Home</h3>
+              <b>
+                <p>Judith, Peoplebot based robot.</p>
+              </b>
+              
+            </div>  
+          </div>
+        </div>
+      </div>
+
+      <!-- Left and right controls -->
+      <a class="carousel-control-prev" href="#demo" data-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </a>
+      <a class="carousel-control-next" href="#demo" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </a>
+
+    </div>
+  </div> 
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+
+  <script>
+
+    $('.carousel').carousel({
+      interval: 5000
+    });
+
+
+
+  </script>
+</body>
+
+
+
+</html>
