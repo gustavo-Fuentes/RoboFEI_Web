@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -57,12 +57,22 @@
 
 <body>
 
+
+  <nav class="navbar navbar-expand-md navbar-light">
+    <div class=" collapse navbar-collapse">
+      <a class="navbar-brand" href="index.html"> <img src="images/logo.png" style="margin: 5px; " height="75" width="80"> </a>
+      <a class="navbar-brand" href="http://www.jesuitasbrasil.com/"> <img src="images/jesuitas-logo.png" style="margin-left: 5px; height: auto; width: auto;" > </a>
+     
+      <ul class="nav" style="width: auto; margin: auto; "><li class="nav-item"></li><li class="nav-item"></li><li class="nav-item"></li></ul>
+
+      <a class="navbar-brand" href="index.html"> <img style="max-width: 100%; height: auto;" src="images/logo-robofei.png" height="75" width="100"> </a> 
+      </div>
+    </div>
+  </nav>
+
   
 
   <nav class="navbar navbar-expand-md navbar-light" style="background-color: rgba(4, 22, 77, 0.808);">
-
-    <a class="navbar-brand" href="index.html"> <img src="images/logo.png" style="margin-left: 10px;" height="75" width="80"> </a>
-
     <div class=" collapse navbar-collapse" id="navbarNav">
       <ul class="nav" style="width: auto; margin: auto; ">
 
@@ -104,19 +114,90 @@
 
       </ul>
     </div>
-    <a class="navbar-brand" href="index.html"> <img src="images/RoboFEI_Logo.png" height="75" width="200"> </a>
-  </nav>
-
-
-  <div style="margin:auto 270px auto 270px; border: 1px solid  rgb(4, 22, 77)">
-    <div style="text-align: center;">
-      <h2>
-        RoboFEI Team
-      </h2>
-
-      <a href="#"><img class="img-fluid" style="width: 800px;" src="images/robos_futebol_foto_gerardo_lazzari_rba.jpg"></a>
-    </div>
     
+  </nav>
+  
+
+  <!--Começo dos slides----------------------------------------------------------------------------------------  -->
+
+
+      <div style="margin:auto 270px auto 270px; border: 1px solid  rgb(4, 22, 77)">
+        
+        <div id="demo" class="carousel slide" style="background-color: #4d4d4d; text-align:center;" data-ride="carousel">
+    
+          <!-- Indicators -->
+          <ul class="carousel-indicators">
+            <li data-target="#demo" data-slide-to="0" class="active"></li>
+            <li data-target="#demo" data-slide-to="1"></li>
+            <li data-target="#demo" data-slide-to="2"></li>
+            <li data-target="#demo" data-slide-to="3"></li>
+          </ul>
+    
+          <!-- The slideshow -->
+    
+          <div class="carousel-inner ">
+    
+            <div class="carousel-item active">
+              <img src="images/b-robots.jpg" height="550" width="550">
+              <div class="carousel-caption">
+                <div style=" background-color: rgba(0,0,0,0.5); display: inline-block; padding: 10px" >
+                  <h3>Humanoid</h3>
+                  <b>
+                    <p>B1, B2 and B3 Robots: Robots inspired by DARwIn-OP. </p>
+                  </b>
+                </div>
+              </div>
+            </div>
+    
+            <div class="carousel-item ">
+              <img src="images/Newton.png" height="550" width="550">
+              <div class="carousel-caption">
+                <div style=" background-color: rgba(0,0,0,0.5); display: inline-block; padding: 10px" >
+                  <h3>Humanoid</h3>
+                  <b>
+                    <p>Newton</p>
+                  </b>
+                </div>
+              </div>
+            </div>
+    
+            <div class="carousel-item ">
+              <img src="images/small_size.jpg" height="550" width="550">
+              <div class="carousel-caption">
+                <div style=" background-color: rgba(0,0,0,0.5); display: inline-block; padding: 10px" >
+                  <h3>Small Size</h3>
+                  <b>
+                    <p></p>
+                  </b>
+                </div>  
+              </div>
+            </div>
+    
+            <div class="carousel-item ">
+              <img src="images/judith.jpg" height="550" width="550">
+              <div class="carousel-caption">
+                <div style=" background-color: rgba(0,0,0,0.5); display: inline-block; padding: 10px" >
+                  <h3>@Home</h3>
+                  <b>
+                    <p>Judith, Peoplebot based robot.</p>
+                  </b>
+                  
+                </div>  
+              </div>
+            </div>
+          </div>
+    
+          <!-- Left and right controls -->
+          <a class="carousel-control-prev" href="#demo" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+          </a>
+          <a class="carousel-control-next" href="#demo" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+          </a>
+    
+        </div>
+      
+    <!--Fim dos slides-----------------------------------------------------------------------------------------------  -->
     
     <div style="height: 50px;"></div>
 
@@ -137,8 +218,8 @@
 
         
         <div class="row" style="text-align: center">
-          <div class="col-sm-6"><img src="images/robo_smallSize_2007.jpg"><p>Small Size as it stood in 2007<p></div>
-          <div class="col-sm-6"><img src="images/robo_verySmallSize.jpg"><p>First Very Small Size completely developed by FEI</p></div>
+          <div class="col-sm-6"><img style="max-width: 100%; height: auto;" src="images/robo_smallSize_2007.jpg"><p>Small Size as it stood in 2007<p></div>
+          <div class="col-sm-6"><img style="max-width: 100%; height: auto;" src="images/robo_verySmallSize.jpg"><p>First Very Small Size completely developed by FEI</p></div>
         </div>           
         
         <p>
@@ -168,7 +249,25 @@
   </div>
   
 
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+  integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+  crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+  integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+  crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+  integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+  crossorigin="anonymous"></script>
 
+  <script>
+
+  $('.carousel').carousel({
+    interval: 5000
+  });
+
+
+
+  </script>
 </body>
 <!-- <footer style="background-color: rgb(4, 22, 77);position: fixed;left: 0;bottom: 0;height: 50px;width: 100%;"></footer> -->
 
