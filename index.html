@@ -20,115 +20,102 @@
       position: relative;
     }
 
-    /*
-    #nav {
-      position: absolute;
-      left: 50%;
-      top: 0;
-      margin-left: -375px;
-      width: 750px;
-      list-style: none;
-    }
-
-    #nav li {
-      float: left;
-    }
-
-    #nav a {
-      display: block;
-      text-align: center;
-      width: 150px;
-      text-decoration: none;
-    } 
-
-    */
-
-    
-
     p{
       padding-top: 15px;
       padding-bottom: 15px;
+      }
+
+    .img-show{
+      height: 600px;
+      width: auto;
     }
 
-    img-show{
-      height: 600;
-      width: 600;
-    }
-    
+    /** RESPONSIVO **/
+    @media screen and (max-width: 1024px){
+      header nav:nth-child(1),
+      header nav:nth-child(2) > div{
+        width: 90% !important;
+      }
+      header nav:nth-child(2) div ul li a{
+        margin: 0 !important;
+      }
 
+      .card-body{
+        width: 100% !important;
+      }
+    }
 
   </style>
 </head>
 
-<body>
+<body style="background-color: #f5f5f5;">
 
+  <header>
+    <nav class="navbar navbar-expand-md navbar-light" style="width: 70%; max-width: 1366px; margin: 0 auto;">
+      <div class=" collapse navbar-collapse">
+        <a class="navbar-brand" href="index.html"> <img src="images/logo.png" style="margin: 5px; " height="75" width="80"> </a>
+        <a class="navbar-brand" target="_blank" href="http://www.jesuitasbrasil.com/"> <img src="images/jesuitas-logo.png" style="margin-left: 5px; height: auto; width: auto;" > </a>
+        <ul class="nav" style="width: auto; margin: auto; "><li class="nav-item"></li><li class="nav-item"></li><li class="nav-item"></li></ul>
 
-  <nav class="navbar navbar-expand-md navbar-light">
-    <div class=" collapse navbar-collapse">
-      <a class="navbar-brand" href="index.html"> <img src="images/logo.png" style="margin: 5px; " height="75" width="80"> </a>
-      <a class="navbar-brand" href="http://www.jesuitasbrasil.com/"> <img src="images/jesuitas-logo.png" style="margin-left: 5px; height: auto; width: auto;" > </a>
-     
-      <ul class="nav" style="width: auto; margin: auto; "><li class="nav-item"></li><li class="nav-item"></li><li class="nav-item"></li></ul>
-
-      <a class="navbar-brand" href="index.html"> <img style="max-width: 100%; height: auto;" src="images/logo-robofei.png" height="75" width="100"> </a> 
+        <a class="navbar-brand" href="index.html"> <img style="max-width: 100%; height: auto;" src="images/logo-robofei.png" height="75" width="100"> </a> 
+        </div>
       </div>
-    </div>
-  </nav>
+    </nav>
 
-  
-
-  <nav class="navbar navbar-expand-md navbar-light" style="background-color: rgba(4, 22, 77, 0.808);">
-    <div class=" collapse navbar-collapse" id="navbarNav">
-      <ul class="nav" style="width: auto; margin: auto; ">
-
-        <li class="nav-item">
-          <a class="nav-link" href="index.html">Home</a> 
-        </li>
-
-        <li class="nav-item">
-          <a class="nav-link" href="Html/projects.html">Projects</a>
-        </li>
-
-        <li class="nav-item">
-          <a class="nav-link" href="Html/team_members.html">Team Members</a>
-        </li>
-
-        <li class="nav-item">
-          <a class="nav-link " href="Html/robots.html">Robots</a>
-        </li>
-
-        <li class="nav-item">
-          <a class="nav-link " href="Html/demonstrations.html">Videos</a>
-        </li>
-
-        <li class="nav-item">
-          <a class="nav-link " href="Html/downloads.html">Downloads</a>
-        </li>
-
-        <li class="nav-item">
-          <a class="nav-link " href="Html/publications.html">Publications</a>
-        </li>
-
-        <li class="nav-item">
-          <a class="nav-link " href="Html/awards.html">Awards</a>
-        </li>
-
-        <li class="nav-item">
-          <a class="nav-link" href="Html/contact.html">Contact</a>
-        </li>
-
-      </ul>
-    </div>
     
-  </nav>
+
+    <nav class="navbar navbar-expand-md navbar-light" style="background-color: rgba(4, 22, 77, 0.808);">
+      <div class=" collapse navbar-collapse" id="navbarNav" style="width: 90%; max-width: 1366px; margin: 0 auto; justify-content: space-around;">
+        <ul class="nav">
+
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a> 
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="Html/projects.html">Projects</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="Html/team_members.html">Team Members</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link " href="Html/robots.html">Robots</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link " href="Html/demonstrations.html">Videos</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link " href="Html/downloads.html">Downloads</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link " href="Html/publications.html">Publications</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link " href="Html/awards.html">Awards</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="Html/contact.html">Contact</a>
+          </li>
+
+        </ul>
+      </div>
+    </nav>
+  </header>
   
 
   <!--Começo dos slides----------------------------------------------------------------------------------------  -->
 
 
-      <div style="margin:auto 270px auto 270px; border: 1px solid  rgb(4, 22, 77)">
+      <div class="container-pai">
         
-        <div id="demo" class="carousel slide" style="background-color: #4d4d4d; text-align:center;" data-ride="carousel">
+        <div id="demo" class="carousel slide" style="background-color: #dfdfdf; text-align: center;" data-ride="carousel">
     
           <!-- Indicators -->
           <ul class="carousel-indicators">
@@ -171,25 +158,34 @@
           </div>
     
           <!-- Anterior e próximo -->
-          <a class="carousel-control-prev" href="#demo" data-slide="prev">
+          <a class="carousel-control-prev" href="#demo" data-slide="prev" style="
+            background-color: rgba(0, 0, 0, .5);
+            height: 200px;
+            left: 50px;
+            top: 50%;
+            width: 70px;
+            transform: translateY(-50%);">
             <span class="carousel-control-prev-icon"></span>
           </a>
-          <a class="carousel-control-next" href="#demo" data-slide="next">
+          <a class="carousel-control-next" href="#demo" data-slide="next" style="
+            background-color: rgba(0, 0, 0, .5);
+            height: 200px;
+            right: 50px;
+            top: 50%;
+            width: 70px;
+            transform: translateY(-50%);">
             <span class="carousel-control-next-icon"></span>
           </a>
     
         </div>
       
     <!--Fim dos slides-----------------------------------------------------------------------------------------------  -->
-    
-    <div style="height: 50px;"></div>
 
-
-    <div class="card">
+    <div class="card" style="margin-top: 50px">
       <div class="card-header text-center">
         History
       </div>
-      <div class="card-body">
+      <div class="card-body" style="width: 70%; margin: 0 auto">
 
         <p class="card-text">
           The first steps towards the first group of research in robots at Centro Universitário FEI was made by Prof. 
@@ -245,10 +241,8 @@
   <script>
 
   $('.carousel').carousel({
-    interval: 5000
+    interval: 4000
   });
-
-
 
   </script>
 </body>
