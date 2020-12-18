@@ -1,17 +1,15 @@
 li.nav-item a.nav-link{
     color: #ffffff;
-    margin: 5px;
-    border-radius: 25px;
+    border-bottom: 2px solid transparent;
 }
 
 li.nav-item:hover a.nav-link{ 
-    background-color: #cecece;
-    border-radius: 25px;
+    border-bottom: 2px solid #cecece;
 }
 
-li.nav-item a.nav-link:hover{
+/* li.nav-item a.nav-link:hover{
     color: #000000; 
-}
+} */
 
 li.nav-item:active a.nav-link{ 
     background-color: #b3b3b3;
@@ -24,4 +22,15 @@ li.nav-item a.nav-link:active{
 
 p, h2{
     padding: 10px;
+}
+
+/* CRIAR NOVO CSS */
+.container-pai{
+    background-color: white;
+    width: 70%;
+    max-width: 1366px;
+    margin: 0 auto;
+    box-shadow:
+        5px 0 10px rgba(0, 0, 0, 0.15),
+        -5px 0 10px rgba(0, 0, 0, 0.15);
 }
