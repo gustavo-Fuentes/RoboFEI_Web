@@ -25,3 +25,18 @@ body{
 .fei-nav{
     margin: -30px;
 }
+
+/** RESPONSIVO **/
+@media screen and (max-width: 1024px){
+    header nav:nth-child(1),
+    header nav:nth-child(2) > div{
+      width: 90% !important;
+    }
+    header nav:nth-child(2) div ul li a{
+      margin: 0 !important;
+    }
+
+    .card-body{
+      width: 100% !important;
+    }
+  }

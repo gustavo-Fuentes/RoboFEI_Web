@@ -1,6 +1,6 @@
 node_modules
 .travis.yml
-gulpfile.js
+
 LICENSE
 package-lock.json
 README.md
